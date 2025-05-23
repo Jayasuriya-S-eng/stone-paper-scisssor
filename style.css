@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+.game-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.choices button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.choices button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+#winner {
+  color: #333;
+  margin-top: 15px;
+}
